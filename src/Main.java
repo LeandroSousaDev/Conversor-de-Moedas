@@ -1,9 +1,10 @@
 
+import java.io.IOException;
 import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         ConversordeMoedas conversordeMoedas = new ConversordeMoedas();
         Scanner leitura = new Scanner(System.in).useLocale(Locale.US);
         int opcao = 0;
